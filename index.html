@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tecno Store</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/actions-buttons.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/benefits.css">
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/testimonials.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/cart.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+    <body onload="window.scrollTo(0,0)">
+        <header class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Tecno Store">
+                </a>
+            </div>
+
+            <nav class="menu">
+                <a href="Categories/Computers/Computers.html">Computadores</a>
+                <a href="Categories/Notebooks/Notebooks.html">Notebooks</a>
+                <a href="Categories/Monitors/Monitors.html">Monitores</a>
+                <a href="Categories/Cellphones/CellPhones.html">Celulares</a>
+                <a href="Categories/Tablets/Tablets.html">Tablets</a>
+            </nav>
+
+            <div class="actions">
+
+                <input type="text" placeholder="Pesquisar" id="searchInput">
+
+                <div class="cart-container">
+                    <button class="btn-icon cart-btn" id="cartBtn">
+                        <span class="cart-badge" id="cartCount"></span>
+                            <svg class="icon-cart" viewBox="0 0 24 24">
+                                <circle cx="8" cy="21" r="1"/>
+                                <circle cx="19" cy="21" r="1"/>
+                                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+                            </svg>
+                    </button>
+
+                    <!-- Pop-Up -->
+                <div class="cart-overlay" id="cartOverlay">
+                    <div class="cart-popup" id="cartPopup">
+                        <h2>Seu carrinho</h2>
+                        <ul id="cartItems"></ul>
+                        <div class="cart-footer">
+                            <strong id="cartTotal">Total: R$ 0</strong>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Usuário -->
+                <button class="btn-icon user-btn">
+                    <svg class="icon-user" viewBox="0 0 24 24">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                        <path d="M16 3.128a4 4 0 0 1 0 7.744"/>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                        <circle cx="9" cy="7" r="4"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+            <!-- Hero -->
+        <section class="hero scroll">
+            <div class="hero-text">
+                <h1>Os melhores eletrônicos você encontra aqui.</h1>
+                <p>Qualidade, garantia e os melhores preços!</p>
+                <a href="#produtos" class="btn-primary">Comprar agora</a>
+            </div>
+
+            <!-- Hero Image-->
+            <div class="hero-image">
+                <img src="images/main_banner.png" alt="Banner principal">
+            </div>
+        </section>
+
+            <!-- Beneficios -->
+        <section class="benefits scroll">
+            <div class="benefit">
+                <h3>🚚 Frete grátis</h3>
+                <p>Para todo o Brasil</p>
+            </div>
+
+            <div class="benefit">
+                <h3>🔒 Compra segura</h3>
+                <p>Seus dados protegidos</p>
+            </div>
+
+            <div class="benefit">
+                <h3>💳 Parcelamento</h3>
+                <p>Em até 12x sem juros</p>
+            </div>
+        </section>
+
+            <!-- Produtos Destaques-->
+        <section class="products scroll" id="produtos">
+            <h2>Produtos em destaque</h2>
+
+            <div class="product-grid">
+                <!-- Os produtos serão gerados aqui pelo products.js -->
+
+            </div>
+        </section>
+
+            <!-- Feedbacks -->
+        <section class="testimonials scroll">
+            <h2>O que nossos clientes dizem</h2>
+
+            <!-- Feedback 01 -->
+            <div class="testimonial">
+                <p>"Entrega rápida e produto excelente!"</p>
+                <strong>- João Silva</strong>
+            </div>
+
+            <!-- Feedback 02 -->
+            <div class="testimonial">
+                <p>"Melhor loja que já comprei online."</p>
+                <strong>- Maria Souza</strong>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Tecno Store</p>
+            <p>Contato: suporte@tecnostore.com</p>
+        </footer>
+
+        <script src="scripts/cart.js" defer></script>
+        <script src="scripts/products.js" defer></script>
+        <script src="scripts/search.js" defer></script>
+        <script src="scripts/scroll-animation.js" defer></script>
+
+    </body>
+</html>

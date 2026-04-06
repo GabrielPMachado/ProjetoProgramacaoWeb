@@ -1,0 +1,96 @@
+.cart-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s ease;
+  z-index: 999;
+}
+
+.cart-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.cart-popup {
+  width: 90%;
+  max-width: 900px;
+  height: 85%;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  transform: scale(0.95);
+  transition: 0.25s ease;
+}
+
+.cart-overlay.active .cart-popup {
+  transform: scale(1);
+}
+
+#cartItems {
+  list-style: none;
+  margin: 10px 0;
+}
+
+#cartItems li {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.cart-footer {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.cart-btn.holding::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid red;
+  animation: holdProgress 1.8s linear forwards;
+  pointer-events: none;
+}
+
+@keyframes holdProgress {
+  0% { transform: scale(0.5); opacity: 0.6; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+.cart-btn.added::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(255,0,0,0.2);
+  transform: scale(0);
+  animation: addPop 0.3s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes addPop {
+  0% { transform: scale(0); opacity: 0.6; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 0; }
+}
+
+.scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.scroll.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll:nth-child(1) { transition-delay: 0.1s; }
+.scroll:nth-child(2) { transition-delay: 0.2s; }
+.scroll:nth-child(3) { transition-delay: 0.3s; }

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    height:30px;
+    text-align: center;
+}
+
+body {
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  width: 150px;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.menu a:hover {
+  color: #555;
+}
+
+/* Ações */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Campo de busca */
+.actions input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+  width: 180px;
+  transition: 0.3s;
+}
+
+.actions input:focus {
+  width: 220px;
+  border-color: #000;
+}
+
+/* Ícones */
+.icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.icon-cart {
+  width: 20px;
+  height: 20px;
+  stroke: #000;
+  stroke-width: 2;
+  fill: none;
+  transition: 0.2s;
+}
+
+.cart-btn:hover .icon-cart {
+  stroke: #0071e3;
+  transform: scale(1.1);
+}
+
+.cart-btn {
+  position: relative;
+}
+
+/* Badge */
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+
+  background: rgb(247, 100, 100);
+  color: white;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  padding: 2px 6px;
+  border-radius: 999px;
+
+  min-width: 18px;
+  text-align: center;
+}
+
+/* Animação leve */
+.cart-badge.animate {
+  transform: scale(1.2);
+  transition: transform 0.15s ease;
+}
+
+.cart-btn.holding {
+  transform: scale(0.95);
+}
+
+.cart-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.cart-btn.holding::after {
+  border-color: red;
+  animation: holdProgress 1s linear;
+}
+
+@keyframes holdProgress {
+  from { transform: scale(0); opacity: 1; }
+  to { transform: scale(1.5); opacity: 0; }
+}
+
+.icon-user {
+  width: 20px;
+  height: 20px;
+  stroke: #000;
+  stroke-width: 2;
+  fill: none;
+  transition: 0.2s;
+}
+
+.user-btn:hover .icon-user {
+  stroke: #0071e3;
+  transform: scale(1.1);
+}

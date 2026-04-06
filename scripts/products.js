@@ -58,7 +58,7 @@ const produtos = [
 const productGrid = document.querySelector(".product-grid");
 
 // Mostrar apenas os 3 primeiros produtos
-const produtosExibidos = produtos.slice(0, 3);
+const produtosExibidos = produtos;
 
 produtosExibidos.forEach(prod => {
   const card = document.createElement("div");
@@ -75,11 +75,22 @@ produtosExibidos.forEach(prod => {
   });
 
   card.innerHTML = `
-    <img src="${prod.img}" alt="${prod.nome}">
-    <h3>${prod.nome}</h3>
-    <p>R$ ${prod.preco}</p>
-    <div class="product-specs">${specsHTML}</div>
-    <button onclick="addToCart('${prod.nome}', ${prod.preco.replace(/\./g,'').replace(',', '.')})">Comprar</button>
+    <div class="product-image">
+      <img src="${prod.img}" alt="${prod.nome}">
+    </div>
+
+    <div class="product-info">
+      <h3>${prod.nome}</h3>
+      <p>R$ ${prod.preco}</p>
+    </div>
+
+    <div class="product-specs">
+      ${specsHTML}
+    </div>
+
+    <button onclick="addToCart('${prod.nome}', ${prod.preco.replace(/\./g,'').replace(',', '.')})">
+      Comprar
+    </button>
   `;
 
   productGrid.appendChild(card);

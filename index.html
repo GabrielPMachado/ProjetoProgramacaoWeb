@@ -12,19 +12,25 @@
     <link rel="stylesheet" href="styles/testimonials.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/cart.css">
+    <link rel="stylesheet" href="styles/user.css">
     <link rel="stylesheet" href="styles/animations.css">
     <link rel="stylesheet" href="styles/responsive.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
     <body onload="window.scrollTo(0,0)">
         <header class="navbar">
+
+<!-- Logo NavBar -->
             <div class="logo">
                 <a href="index.html">
                     <img src="images/logo.png" alt="Tecno Store">
                 </a>
             </div>
 
+<!-- Categories NavBar -->
             <nav class="menu">
                 <a href="Categories/Computers/Computers.html">Computadores</a>
                 <a href="Categories/Notebooks/Notebooks.html">Notebooks</a>
@@ -34,9 +40,10 @@
             </nav>
 
             <div class="actions">
-
+<!-- SearchBar -->
                 <input type="text" placeholder="Pesquisar" id="searchInput">
 
+<!-- Cart -->
                 <div class="cart-container">
                     <button class="btn-icon cart-btn" id="cartBtn">
                         <span class="cart-badge" id="cartCount"></span>
@@ -47,7 +54,7 @@
                             </svg>
                     </button>
 
-                    <!-- Pop-Up -->
+<!-- Cart Pop-Up -->
                 <div class="cart-overlay" id="cartOverlay">
                     <div class="cart-popup" id="cartPopup">
                         <h2>Seu carrinho</h2>
@@ -58,7 +65,7 @@
                     </div>
                 </div>
 
-                    <!-- Usuário -->
+<!-- User -->
                 <button class="btn-icon user-btn">
                     <svg class="icon-user" viewBox="0 0 24 24">
                         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -68,9 +75,23 @@
                     </svg>
                 </button>
             </div>
-        </header>
 
-            <!-- Hero -->
+<!-- User Pop Up -->
+                <div class="user-overlay" id="userOverlay">
+                    <div class="user-popup" id="userPopup">
+                        <h2>Faça Login</h2>
+
+                        <form id="loginForm">
+                            <input type="email" placeholder="Email" required>
+                            <input type="password" placeholder="Passwaord" required>
+
+                            <button type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </header>
+
+<!-- Hero -->
         <section class="hero scroll">
             <div class="hero-text">
                 <h1>Os melhores eletrônicos você encontra aqui.</h1>
@@ -84,7 +105,7 @@
             </div>
         </section>
 
-            <!-- Beneficios -->
+<!-- Beneficios -->
         <section class="benefits scroll">
             <div class="benefit">
                 <h3>🚚 Frete grátis</h3>
@@ -102,7 +123,7 @@
             </div>
         </section>
 
-            <!-- Produtos Destaques-->
+<!-- Produtos Destaques-->
         <section class="products scroll" id="produtos">
             <h2>Produtos em destaque</h2>
 
@@ -112,7 +133,7 @@
             </div>
         </section>
 
-            <!-- Feedbacks -->
+<!-- Feedbacks -->
         <section class="testimonials scroll">
             <h2>O que nossos clientes dizem</h2>
 
@@ -129,13 +150,14 @@
             </div>
         </section>
 
-        <!-- Footer -->
+<!-- Footer -->
         <footer class="footer">
             <p>© 2026 Tecno Store</p>
             <p>Contato: suporte@tecnostore.com</p>
         </footer>
 
         <script src="scripts/cart.js" defer></script>
+        <script src="scripts/user.js" defer></script>
         <script src="scripts/products.js" defer></script>
         <script src="scripts/search.js" defer></script>
         <script src="scripts/scroll-animation.js" defer></script>

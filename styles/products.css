@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  align-items: stretch; /* garante mesma altura */
 }
 
 /* Responsividade */
@@ -33,6 +34,13 @@
   text-align: center;
   transition: 0.3s;
   background: white;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* empurra o conteúdo */
+  height: 100%;
 }
 
 .product-card:hover {
@@ -88,4 +96,60 @@
   height: 20px;
   margin-right: 8px;
   object-fit: contain;
+}
+
+.product-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.spec-item {
+  display: grid;
+  grid-template-columns: 24px 1fr; /* coluna fixa pro ícone */
+  align-items: center;
+  gap: 8px;
+}
+
+.spec-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.spec-item span {
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.product-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-image {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.product-info {
+  text-align: center;
+  min-height: 80px; /* força alinhamento entre cards */
+}
+
+.product-specs {
+  margin-top: 10px;
+  flex-grow: 1; /* ESSENCIAL */
+}
+
+.product-card button {
+  margin-top: auto;
 }

@@ -1,3 +1,4 @@
+/* Seção de depoimentos */
 .testimonials {
   width: 100%;
   background: #f5f5f5;
@@ -5,6 +6,7 @@
   text-align: center;
 }
 
+/* Depoimento */
 .testimonial {
   margin-top: 20px;
   font-style: italic;

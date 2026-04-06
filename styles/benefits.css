@@ -1,3 +1,4 @@
+/* Seção de benefícios */
 .benefits {
   display: flex;
   flex-wrap: wrap;
@@ -9,14 +10,17 @@
   gap: 20px;
 }
 
+/* Separa os itens */
 .benefit {
   flex: 1 1 200px;
 }
 
+/* Título */
 .benefit h3 {
   margin-bottom: 5px;
 }
 
+/* Descrição */
 .benefit p {
   color: #777;
   font-size: 14px;

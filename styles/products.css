@@ -1,17 +1,20 @@
+/* Seção de produtos */
 .products {
   width: 100%;
   padding: 50px 20px;
 }
 
+/* Título */
 .products h2 {
   margin-bottom: 20px;
 }
 
+/* Grid de produtos */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  align-items: stretch; /* garante mesma altura */
+  align-items: stretch;
 }
 
 /* Responsividade */
@@ -21,49 +24,102 @@
   }
 }
 
+/* Responsividade mobile */
 @media (max-width: 600px) {
   .product-grid {
     grid-template-columns: 1fr;
   }
 }
 
+/* Card do produto */
 .product-card {
   border: 1px solid #eee;
   border-radius: 15px;
   padding: 15px;
-  text-align: center;
-  transition: 0.3s;
   background: white;
-}
-
-.product-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* empurra o conteúdo */
+  justify-content: space-between;
   height: 100%;
+  transition: 0.3s;
 }
 
+/* Hover do card */
 .product-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.product-card img {
-  width: 100%;
-  max-width: 150px;
-  margin-bottom: 10px;
+/* Topo do card */
+.product-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.product-card h3 {
+/* Área da imagem */
+.product-image {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Imagem */
+.product-image img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Informações do produto */
+.product-info {
+  text-align: center;
+  min-height: 80px;
+}
+
+/* Nome do produto */
+.product-info h3 {
   font-size: 16px;
   margin-bottom: 5px;
 }
 
-.product-card p {
+/* Preço */
+.product-info p {
   margin-bottom: 10px;
   font-weight: 600;
 }
 
+/* Especificações */
+.product-specs {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+/* Item de especificação */
+.spec-item {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Ícone da especificação */
+.spec-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Texto da especificação */
+.spec-item span {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Botão do produto */
 .product-card button {
   background: #0071e3;
   color: white;
@@ -72,84 +128,10 @@
   border-radius: 20px;
   cursor: pointer;
   transition: 0.3s;
+  margin-top: auto;
 }
 
+/* Hover do botão */
 .product-card button:hover {
   background: #005bb5;
-}
-
-.product-specs {
-  margin-top: 10px;
-  text-align: left;
-}
-
-.spec-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 6px;
-  font-size: 14px;
-  color: #333;
-}
-
-.spec-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  object-fit: contain;
-}
-
-.product-specs {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.spec-item {
-  display: grid;
-  grid-template-columns: 24px 1fr; /* coluna fixa pro ícone */
-  align-items: center;
-  gap: 8px;
-}
-
-.spec-icon {
-  width: 20px;
-  height: 20px;
-}
-
-.spec-item span {
-  line-height: 1.2;
-  font-size: 14px;
-}
-
-.product-top {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.product-image {
-  height: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.product-image img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.product-info {
-  text-align: center;
-  min-height: 80px; /* força alinhamento entre cards */
-}
-
-.product-specs {
-  margin-top: 10px;
-  flex-grow: 1; /* ESSENCIAL */
-}
-
-.product-card button {
-  margin-top: auto;
 }

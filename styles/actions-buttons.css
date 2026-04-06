@@ -1,10 +1,11 @@
-/* Ações (busca, ícones) */
+/* Ações do header */
 .actions {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
+/* Campo de busca */
 .actions input {
   padding: 8px 15px;
   border-radius: 20px;
@@ -15,12 +16,13 @@
   transition: 0.3s;
 }
 
+/* Efeito ao focar */
 .actions input:focus {
   width: 220px;
   border-color: #000;
 }
 
-/* Botões e ícones */
+/* Botões de ícone */
 .btn-icon {
   background: none;
   border: none;
@@ -29,6 +31,7 @@
   padding: 5px;
 }
 
+/* Ícones SVG */
 .icon-cart,
 .icon-user {
   width: 20px;
@@ -39,6 +42,7 @@
   transition: 0.2s;
 }
 
+/* Hover nos ícones */
 .cart-btn:hover .icon-cart,
 .user-btn:hover .icon-user {
   stroke: #0071e3;
@@ -59,15 +63,17 @@
   display: none;
 }
 
+/* Exibir quando houver itens */
 .cart-badge.show {
   display: inline-block;
 }
 
+/* Ocultar quando vazio */
 .cart-badge:empty {
   display: none;
 }
 
-/* Bolinha de limpar carrinho */
+/* Estado segurando botão */
 .cart-btn.holding::after {
   content: "";
   position: absolute;
@@ -78,25 +84,14 @@
   pointer-events: none;
 }
 
-@keyframes holdProgress {
-  0% { transform: scale(0.5); opacity: 0.6; }
-  100% { transform: scale(1.8); opacity: 0; }
-}
-
-/* Pop ao adicionar item */
+/* Feedback ao adicionar item */
 .cart-btn.added::after {
   content: "";
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background: rgba(255,0,0,0.2);
+  background: rgba(255, 0, 0, 0.2);
   transform: scale(0);
   animation: addPop 0.3s ease forwards;
   pointer-events: none;
-}
-
-@keyframes addPop {
-  0% { transform: scale(0); opacity: 0.6; }
-  50% { transform: scale(1.2); opacity: 0.8; }
-  100% { transform: scale(1); opacity: 0; }
 }

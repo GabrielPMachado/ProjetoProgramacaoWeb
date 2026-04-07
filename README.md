@@ -74,7 +74,7 @@ Servidor rodando em http://localhost:3000
 
 - Abra o seu navegador e cole:
 
-localhost:3000
+http://127.0.0.1:5500/index.html
 
 ---
 

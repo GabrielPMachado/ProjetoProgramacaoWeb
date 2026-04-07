@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const elements = document.querySelectorAll('.scroll');
+  // Seleciona todos os elementos que têm animação de scroll
+  const elements = document.querySelectorAll(".scroll");
   let ticking = false;
 
   function showOnScroll() {
@@ -7,19 +8,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     elements.forEach(el => {
       const rect = el.getBoundingClientRect();
+
+      // Verifica se o elemento está visível na tela
       const isVisible = rect.top < windowHeight - 100 && rect.bottom > 100;
-      el.classList.toggle('active', isVisible);
+
+      // Adiciona ou remove a classe "active" conforme a visibilidade
+      el.classList.toggle("active", isVisible);
     });
 
     ticking = false;
   }
 
-  window.addEventListener('scroll', () => {
+  window.addEventListener("scroll", () => {
+    // Evita chamar a função várias vezes por frame
     if (!ticking) {
       requestAnimationFrame(showOnScroll);
       ticking = true;
     }
   });
 
+  // Roda uma vez ao carregar para ativar itens já visíveis
   showOnScroll();
 });

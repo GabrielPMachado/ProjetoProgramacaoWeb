@@ -52,7 +52,7 @@ Ctrl + `
 
 ### 4️⃣ Inicializar o projeto
 
-- No terminar digite:
+- No terminal digite:
 
 npm init -y
 

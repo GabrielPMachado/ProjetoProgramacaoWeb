@@ -1,0 +1,3142 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 15 Pro Max",
+    "price": "9.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-max-naturaltitanium-select?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple A17 Pro"
+      },
+      {
+        "icon": "images/specs/ios_svg.svg",
+        "label": "iOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.7'' OLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 48 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone 15",
+    "price": "6.299,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pink-select-202309?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple A16 Bionic"
+      },
+      {
+        "icon": "images/specs/ios_svg.svg",
+        "label": "iOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "6 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.1'' OLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 48 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": "8.499,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/2401/gallery/levant-galaxy-s24-ultra-s928-sm-s928bzadeub-thumb-539504718?w=480&h=480&imageBadge=none",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 8 Gen 3 for Galaxy"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.8'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 200 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy S24",
+    "price": "4.999,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/2401/gallery/levant-galaxy-s24-s921-sm-s921bzkdeub-thumb-539504396?w=480&h=480&imageBadge=none",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Exynos 2400"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.2'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 5,
+    "name": "Motorola Edge 50 Pro",
+    "price": "3.499,00",
+    "img": "https://motorola-global-portal.custhelp.com/ci/fattach/get/1234567/0/filename/motorola-edge-50-pro.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 7 Gen 3"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.7'' pOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 6,
+    "name": "Motorola Edge 40 Neo",
+    "price": "1.999,00",
+    "img": "https://mobilemag.com.br/wp-content/uploads/2023/10/motorola-edge-40-neo-ice-lavender.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Dimensity 7030"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.55'' pOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 7,
+    "name": "Xiaomi 14",
+    "price": "5.999,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1699257289.43063737.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 8 Gen 3"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.36'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 8,
+    "name": "Xiaomi Redmi Note 13 Pro 5G",
+    "price": "2.199,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1695193024.31044578.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 7s Gen 2"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.67'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 200 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 9,
+    "name": "POCO X6 Pro",
+    "price": "2.399,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1705296427.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Dimensity 8300-Ultra"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.67'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 64 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 10,
+    "name": "Google Pixel 8",
+    "price": "4.999,00",
+    "img": "https://lh3.googleusercontent.com/9_cFHx4Dn4P8RL2TMWThfCYgSIzXHh8RsMkBH9LNLOM0sXvqf2oJz0WFHJw3xRkNMjm=w800",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Google Tensor G3"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.2'' OLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 11,
+    "name": "Apple iMac 24 M3",
+    "price": "13.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-blue-selection-hero-202310?wid=904&hei=840&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M3"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "macOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "24'' Retina 4.5K"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "GPU integrada"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 12,
+    "name": "Apple Mac mini M2",
+    "price": "5.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-mini-hero-202301?wid=904&hei=840&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M2"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "macOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Mini desktop"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "GPU integrada"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 13,
+    "name": "Dell Inspiron Desktop 3020",
+    "price": "4.199,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/3020/media-gallery/inspiron-3020-desktop-gallery-5.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-14400"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop torre"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel UHD Graphics"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 14,
+    "name": "Dell XPS Desktop 8960",
+    "price": "9.999,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/xps-desktops/xps-8960/media-gallery/desktop-xps-8960-nt-blue-gallery-1.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-14700"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop torre"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "NVIDIA GeForce RTX 4060"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 15,
+    "name": "HP Pavilion Desktop TP01",
+    "price": "3.999,00",
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/knivel/c08189773.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 5 5600G"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop torre"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Radeon Graphics"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 16,
+    "name": "HP OMEN 40L",
+    "price": "12.999,00",
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/knivel/c08654326.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-14700F"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop gamer"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "NVIDIA GeForce RTX 4060 Ti"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 17,
+    "name": "Lenovo IdeaCentre 3",
+    "price": "3.299,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2022/09/05/ulkq0n8tgy7vz45k3s65v3sqnkbz57.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 5 5500"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop torre"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Radeon Graphics"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 18,
+    "name": "Lenovo Legion Tower 5",
+    "price": "11.999,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2022/10/26/jznm8bh27h3qfkpjzh1bcf39d1b6mn.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 7 7700"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop gamer"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "NVIDIA GeForce RTX 4070"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 19,
+    "name": "Acer Aspire TC-1780",
+    "price": "4.499,00",
+    "img": "https://static.acer.com/up/Resource/Acer/Desktops/Aspire-TC/Aspire-TC-1780/Images/20230308-Acer-Aspire-TC-1780-01.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-13400"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop torre"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel UHD Graphics"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 20,
+    "name": "ASUS ROG G22CH",
+    "price": "13.499,00",
+    "img": "https://dlcdnwebimgs.asus.com/gain/2CA89B3D-7F47-4E57-B17C-B7A6BF2DC8F4/w1280/fwebp",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-13700F"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop gamer compacto"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "NVIDIA GeForce RTX 4060"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 21,
+    "name": "Samsung Odyssey G3 24",
+    "price": "899,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/ls24dg300nrxen/gallery/levant-odyssey-g3-24-ls24dg300nrxen-thumb?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "24'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "180 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel VA"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 22,
+    "name": "Samsung Odyssey G5 27",
+    "price": "1.799,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/ls27cg554euxen/gallery/levant-odyssey-g5-27-ls27cg554euxen-thumb?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' QHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "165 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel VA"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 23,
+    "name": "Samsung Smart Monitor M8 32",
+    "price": "3.499,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/ls32bm801uuxen/gallery/levant-smart-monitor-m8-32-thumb?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "32'' 4K UHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "60 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel VA"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "USB-C"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 24,
+    "name": "LG UltraGear 24GN600-B",
+    "price": "1.099,00",
+    "img": "https://www.lg.com/us/images/monitors/md07562379/gallery/desktop-01.jpg",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "24'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "144 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 25,
+    "name": "LG UltraGear 27GP850-B",
+    "price": "2.599,00",
+    "img": "https://www.lg.com/us/images/monitors/md07524898/gallery/desktop-01.jpg",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' QHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "165 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 26,
+    "name": "LG 29WK600-W",
+    "price": "1.299,00",
+    "img": "https://www.lg.com/us/images/monitors/md05017052/gallery/desktop-01.jpg",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "29'' UltraWide Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "75 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "HDR10"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 27,
+    "name": "Dell P2422H",
+    "price": "1.199,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/p-series/p2422h/global-spi/monitor-p2422h-gallery-4.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "23.8'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "60 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Ajuste de altura"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 28,
+    "name": "Dell S2721DGF",
+    "price": "2.399,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/s-series/s2721dgf/global-spi/monitor-s2721dgf-gallery-1.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' QHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "165 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 29,
+    "name": "AOC 24G2SP",
+    "price": "1.099,00",
+    "img": "https://aoc.com/medias/Images/products/24G2SP-BK-800x800.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "23.8'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "165 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 30,
+    "name": "ASUS ProArt PA278QV",
+    "price": "2.499,00",
+    "img": "https://dlcdnwebimgs.asus.com/gain/proart-pa278qv-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' QHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "75 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "100% sRGB"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 31,
+    "name": "Apple MacBook Air 13 M2",
+    "price": "8.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=452&hei=420&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M2"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "macOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "13.6'' Liquid Retina"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "GPU integrada"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 32,
+    "name": "Apple MacBook Pro 14 M3",
+    "price": "15.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=452&hei=420&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M3"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "macOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "14.2'' Liquid Retina XDR"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "GPU integrada"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 33,
+    "name": "Dell XPS 13",
+    "price": "11.999,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/global-spi/notebook-xps-13-9315-gallery-1.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core Ultra 7 155H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "13.4'' FHD+"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Arc integrada"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 34,
+    "name": "Dell Inspiron 15 3530",
+    "price": "4.299,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/inspiron-15-3530/media-gallery/notebook-inspiron-15-3530-gallery-1.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-1334U"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' Full HD"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Iris Xe"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 35,
+    "name": "Dell G15 5530",
+    "price": "7.499,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/g-series/g15-5530/media-gallery/notebook-g15-5530-gallery-1.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-13650HX"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' 165 Hz"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "RTX 4050"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 36,
+    "name": "Lenovo IdeaPad Slim 3",
+    "price": "3.499,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2023/01/10/ideapad-slim-3-15-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-12450H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' Full HD"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel UHD Graphics"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 37,
+    "name": "Lenovo LOQ 15IRH8",
+    "price": "6.999,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2023/01/10/lenovo-loq-15irh8-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-13620H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "RTX 4050"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 38,
+    "name": "Acer Aspire 5 A515",
+    "price": "3.799,00",
+    "img": "https://static.acer.com/up/Resource/Acer/Laptops/Aspire5/Images/acer-aspire-5-a515-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-13420H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' Full HD"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel UHD Graphics"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 39,
+    "name": "Acer Nitro V 15",
+    "price": "6.499,00",
+    "img": "https://static.acer.com/up/Resource/Acer/Laptops/Nitro/Nitro-V-15/Images/acer-nitro-v-15-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-13620H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "RTX 4050"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 40,
+    "name": "ASUS TUF Gaming A15",
+    "price": "7.299,00",
+    "img": "https://dlcdnwebimgs.asus.com/gain/tuf-gaming-a15-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 7 7735HS"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "RTX 4050"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 41,
+    "name": "Apple iPad 10ª geração",
+    "price": "4.299,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-10th-wifi-blue-select-202210?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple A14 Bionic"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "iPadOS"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "64 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "10.9'' Liquid Retina"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 12 MP"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 42,
+    "name": "Apple iPad Air 11 M2",
+    "price": "6.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-blue-202405?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M2"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "iPadOS"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11'' Liquid Retina"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 12 MP"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 43,
+    "name": "Apple iPad Pro 11 M4",
+    "price": "11.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-11-select-wifi-spacegray-202405?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M4"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "iPadOS"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11'' Ultra Retina XDR"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 12 MP"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 44,
+    "name": "Samsung Galaxy Tab S9",
+    "price": "5.999,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-x716bzeaeub/gallery/levant-galaxy-tab-s9-5g-sm-x716bzeaeub-thumb-537897074?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 8 Gen 2 for Galaxy"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11'' AMOLED"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "S Pen inclusa"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 45,
+    "name": "Samsung Galaxy Tab S9 FE",
+    "price": "3.499,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-x516bzsaeub/gallery/levant-galaxy-tab-s9-fe-sm-x516bzsaeub-thumb?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Exynos 1380"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "6 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "10.9'' LCD"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "S Pen inclusa"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 46,
+    "name": "Samsung Galaxy Tab A9+",
+    "price": "1.699,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-x210nzsaeub/gallery/levant-galaxy-tab-a9-plus-sm-x210nzsaeub-thumb?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 695"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11'' LCD"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 47,
+    "name": "Xiaomi Pad 6",
+    "price": "2.699,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1683273741.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 870"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Dolby Vision"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 48,
+    "name": "Lenovo Tab P12",
+    "price": "2.599,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2023/01/10/lenovo-tab-p12-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Dimensity 7050"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "12.7'' LCD"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Caneta compatível"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 49,
+    "name": "Microsoft Surface Pro 9",
+    "price": "11.499,00",
+    "img": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4Ysc0?ver=e5bb",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-1235U"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "13'' PixelSense"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "2 em 1"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 50,
+    "name": "OnePlus Pad",
+    "price": "3.299,00",
+    "img": "https://image01.oneplus.net/ebp/202303/28/1-m00-49-18-rb8bwmqjwfeaj0uaabawqtpnyxq449.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Dimensity 9000"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11.61'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Dolby Vision"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 51,
+    "name": "Apple iPhone 14",
+    "price": "5.299,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-midnight?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple A15 Bionic"
+      },
+      {
+        "icon": "images/specs/ios_svg.svg",
+        "label": "iOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "6 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.1'' OLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 12 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 52,
+    "name": "Samsung Galaxy S23 FE",
+    "price": "3.299,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/2310/gallery/levant-galaxy-s23-fe-s711-sm-s711blggeub-thumb-537948698?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Exynos 2200"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.4'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 53,
+    "name": "Samsung Galaxy A55 5G",
+    "price": "2.499,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/2401/gallery/levant-galaxy-a55-5g-a556-sm-a556ezkaeub-thumb-539503958?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Exynos 1480"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.6'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 54,
+    "name": "Samsung Galaxy A35 5G",
+    "price": "1.899,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/2401/gallery/levant-galaxy-a35-5g-a356-sm-a356ezkaeub-thumb-539504058?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Exynos 1380"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.6'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 55,
+    "name": "Motorola Edge 50 Ultra",
+    "price": "4.999,00",
+    "img": "https://motorola.com/us/content/dam/motorola/smartphones/motorola-edge-50-ultra/motorola-edge-50-ultra-pdp.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 8s Gen 3"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.7'' pOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 56,
+    "name": "Motorola Moto G84",
+    "price": "1.499,00",
+    "img": "https://motorola.com/us/content/dam/motorola/smartphones/moto-g84/moto-g84-pdp.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 695"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.5'' pOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 57,
+    "name": "Xiaomi 13T Pro",
+    "price": "4.499,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1694684748.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Dimensity 9200+"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.67'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 58,
+    "name": "Xiaomi Redmi Note 13",
+    "price": "1.499,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1695190000.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 685"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.67'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 108 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 59,
+    "name": "POCO F6",
+    "price": "2.999,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1716470000.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 8s Gen 3"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.67'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 60,
+    "name": "ASUS Zenfone 11 Ultra",
+    "price": "5.499,00",
+    "img": "https://www.asus.com/media/global/gallery/hqhkLmHTFqRa7e3E_setting_fff_1_90_end_500.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 8 Gen 3"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "6.78'' AMOLED"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 50 MP"
+      }
+    ],
+    "category": "Cellphone"
+  },
+  {
+    "id": 61,
+    "name": "Lenovo IdeaCentre AIO 3 24",
+    "price": "4.799,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2022/09/05/ideacentre-aio-3-24-1.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 5 7520U"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "23.8'' Full HD"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "GPU integrada"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 62,
+    "name": "Acer Predator Orion 3000",
+    "price": "10.999,00",
+    "img": "https://static.acer.com/up/Resource/Acer/Desktops/Predator-Orion-3000/Images/acer-predator-orion-3000-01.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-14700F"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop gamer"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "NVIDIA GeForce RTX 4060"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 63,
+    "name": "ASUS S500SE",
+    "price": "4.299,00",
+    "img": "https://dlcdnwebimgs.asus.com/gain/s500se-desktop-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-13500"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop torre"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel UHD Graphics"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 64,
+    "name": "MSI PRO DP180",
+    "price": "5.499,00",
+    "img": "https://asset.msi.com/resize/image/global/product/product_1_20220719154826_62d6b3c296ba5.png62405b38c58fe0319676a3a4f7d1bf1f/1024.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-13400"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11 Pro"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop compacto"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel UHD Graphics"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 65,
+    "name": "MSI MPG Trident AS",
+    "price": "14.999,00",
+    "img": "https://asset.msi.com/resize/image/global/product/product_1_mpg-trident-as.png/1024.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 7 7700X"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop gamer compacto"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "NVIDIA GeForce RTX 4070"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 66,
+    "name": "Apple Mac Studio M2 Max",
+    "price": "18.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-studio-hero-202306?wid=904&hei=840&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M2 Max"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "macOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "32 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop profissional"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "GPU integrada"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 67,
+    "name": "Intel NUC 13 Pro",
+    "price": "4.899,00",
+    "img": "https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-01/nuc-13-pro-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-1360P"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Mini PC"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Iris Xe"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 68,
+    "name": "Minisforum UM790 Pro",
+    "price": "4.599,00",
+    "img": "https://www.minisforum.com/cdn/shop/products/um790pro-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 9 7940HS"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "32 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Mini PC"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Radeon 780M"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 69,
+    "name": "Beelink SER7",
+    "price": "4.199,00",
+    "img": "https://www.bee-link.com/cdn/shop/products/ser7-main.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 7 7840HS"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "32 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Mini PC"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Radeon 780M"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 70,
+    "name": "Dell OptiPlex 7010",
+    "price": "4.699,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/optiplex-desktops/optiplex-7010/media-gallery/desktop-optiplex-7010-gallery-1.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-13500"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11 Pro"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Desktop corporativo"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel UHD Graphics"
+      }
+    ],
+    "category": "Computer"
+  },
+  {
+    "id": 71,
+    "name": "Dell U2723QE",
+    "price": "4.199,00",
+    "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/u-series/u2723qe/global-spi/monitor-u2723qe-gallery-1.psd?fmt=png-alpha&wid=600&hei=600",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' 4K UHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "60 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS Black"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "USB-C"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 72,
+    "name": "AOC Hero 27G2S/BK",
+    "price": "1.399,00",
+    "img": "https://aoc.com/medias/Images/products/27G2S-BK-800x800.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "165 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 73,
+    "name": "ASUS TUF Gaming VG249Q1A",
+    "price": "1.199,00",
+    "img": "https://dlcdnwebimgs.asus.com/gain/vg249q1a-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "23.8'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "165 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 74,
+    "name": "BenQ MOBIUZ EX2510S",
+    "price": "1.699,00",
+    "img": "https://benq-upload.benq.com/web-s3/product-image/monitor/EX2510S-monitor-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "24.5'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "165 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 75,
+    "name": "BenQ GW2480",
+    "price": "899,00",
+    "img": "https://benq-upload.benq.com/web-s3/product-image/monitor/GW2480-monitor-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "23.8'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "60 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Som integrado"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 76,
+    "name": "MSI G274QPF-QD",
+    "price": "2.299,00",
+    "img": "https://asset.msi.com/resize/image/global/product/product_1_G274QPF-QD.png/1024.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' QHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "170 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Rapid IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 77,
+    "name": "Gigabyte M27Q",
+    "price": "2.199,00",
+    "img": "https://static.gigabyte.com/StaticFile/Image/Global/ce2c1a74a9e4d4d38a77cc0dccbc79e8/Product/27688/png/700",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' QHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "170 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "0.5 ms MPRT"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 78,
+    "name": "Philips 241V8L",
+    "price": "749,00",
+    "img": "https://images.philips.com/is/image/philipsconsumer/241v8l-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "23.8'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "75 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel VA"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Adaptive-Sync"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 79,
+    "name": "Philips 27E1N5500E",
+    "price": "1.499,00",
+    "img": "https://images.philips.com/is/image/philipsconsumer/27e1n5500e-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "27'' QHD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "75 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel IPS"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "USB-C"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 80,
+    "name": "Acer Nitro KG243Y",
+    "price": "899,00",
+    "img": "https://static.acer.com/up/Resource/Acer/Monitors/Nitro-KG/KG243Y/Images/acer-kg243y-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "23.8'' Full HD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "180 Hz"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "1 ms"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "Painel VA"
+      }
+    ],
+    "category": "Monitor"
+  },
+  {
+    "id": 81,
+    "name": "Apple MacBook Air 15 M3",
+    "price": "12.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-15-midnight-select-202402?wid=452&hei=420&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M3"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "macOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.3'' Liquid Retina"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "GPU integrada"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 82,
+    "name": "Lenovo IdeaPad 1",
+    "price": "2.799,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2023/01/10/ideapad-1-15-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 5 7520U"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' Full HD"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Radeon Graphics"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 83,
+    "name": "Lenovo Legion Slim 5",
+    "price": "9.499,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2023/01/10/lenovo-legion-slim-5-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "AMD Ryzen 7 7840HS"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "16'' WQXGA 165 Hz"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "RTX 4060"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 84,
+    "name": "Acer Swift Go 14",
+    "price": "5.999,00",
+    "img": "https://static.acer.com/up/Resource/Acer/Laptops/SwiftGo/SwiftGo14/Images/acer-swift-go-14-front.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core Ultra 7 155H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "14'' OLED"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Arc integrada"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 85,
+    "name": "ASUS Vivobook 15",
+    "price": "3.699,00",
+    "img": "https://dlcdnwebimgs.asus.com/gain/vivobook-15-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-1235U"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' Full HD"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Iris Xe"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 86,
+    "name": "ASUS Zenbook 14 OLED",
+    "price": "7.999,00",
+    "img": "https://dlcdnwebimgs.asus.com/gain/zenbook-14-oled-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core Ultra 7 155H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "14'' OLED"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Arc integrada"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 87,
+    "name": "HP 240 G10",
+    "price": "3.199,00",
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/knivel/c08264679.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-1335U"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "14'' Full HD"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Iris Xe"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 88,
+    "name": "HP Pavilion Plus 14",
+    "price": "6.499,00",
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/knivel/c08516580.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-1355U"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "14'' OLED"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "Intel Iris Xe"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 89,
+    "name": "HP Victus 15",
+    "price": "6.299,00",
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/knivel/c08346892.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i5-13420H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "512 GB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "RTX 3050"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 90,
+    "name": "MSI Katana 15",
+    "price": "8.499,00",
+    "img": "https://asset.msi.com/resize/image/global/product/product_1_katana-15-b13v.png/1024.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Core i7-13620H"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "16 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "1 TB SSD"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "15.6'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/placavideo_svg.svg",
+        "label": "RTX 4060"
+      }
+    ],
+    "category": "Notebook"
+  },
+  {
+    "id": 91,
+    "name": "Apple iPad Air 13 M2",
+    "price": "9.299,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-starlight-202405?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M2"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "iPadOS"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "13'' Liquid Retina"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 12 MP"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 92,
+    "name": "Apple iPad Pro 13 M4",
+    "price": "15.999,00",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-13-select-wifi-spacegray-202405?wid=470&hei=556&fmt=png-alpha",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Apple M4"
+      },
+      {
+        "icon": "images/specs/apple_svg.svg",
+        "label": "iPadOS"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "13'' Ultra Retina XDR"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      },
+      {
+        "icon": "images/specs/cam_svg.svg",
+        "label": "Câmera 12 MP"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 93,
+    "name": "Samsung Galaxy Tab S9 FE+",
+    "price": "4.299,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-x616bzsaeub/gallery/levant-galaxy-tab-s9-fe-plus-sm-x616bzsaeub-thumb?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Exynos 1380"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "12.4'' LCD"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "S Pen inclusa"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 94,
+    "name": "Samsung Galaxy Tab A9",
+    "price": "999,00",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-x110nzaaeub/gallery/levant-galaxy-tab-a9-sm-x110nzaaeub-thumb?w=480&h=480",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Helio G99"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "4 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "64 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "8.7'' LCD"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 95,
+    "name": "Xiaomi Redmi Pad Pro",
+    "price": "2.399,00",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875C0/pms_1710000000.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 7s Gen 2"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "12.1'' 120 Hz"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Quad speakers"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 96,
+    "name": "Lenovo Tab M11",
+    "price": "1.499,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2023/01/10/lenovo-tab-m11-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Helio G88"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11'' LCD"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Caneta inclusa"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 97,
+    "name": "Lenovo Legion Tab",
+    "price": "3.999,00",
+    "img": "https://p3-ofp.static.pub/fes/cms/2023/01/10/lenovo-legion-tab-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 8+ Gen 1"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "Android"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "12 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "256 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "8.8'' 144 Hz"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "USB-C dupla"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 98,
+    "name": "Huawei MatePad 11.5",
+    "price": "2.299,00",
+    "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-11-5-2023/img/matepad-11-5-2023-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 7 Gen 1"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "HarmonyOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11.5'' 120 Hz"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "M-Pencil compatível"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 99,
+    "name": "Huawei MatePad SE 11",
+    "price": "1.599,00",
+    "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-se-11-2023/img/matepad-se-11-gallery.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Snapdragon 680"
+      },
+      {
+        "icon": "images/specs/android_svg.svg",
+        "label": "HarmonyOS"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "11'' LCD"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "Wi-Fi"
+      }
+    ],
+    "category": "Tablet"
+  },
+  {
+    "id": 100,
+    "name": "Microsoft Surface Go 4",
+    "price": "6.999,00",
+    "img": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/surface-go-4.png",
+    "specs": [
+      {
+        "icon": "images/specs/processador_svg.svg",
+        "label": "Intel Processor N200"
+      },
+      {
+        "icon": "images/specs/windows_svg.svg",
+        "label": "Windows 11 Pro"
+      },
+      {
+        "icon": "images/specs/memoriaram_svg.svg",
+        "label": "8 GB RAM"
+      },
+      {
+        "icon": "images/specs/hd_svg.svg",
+        "label": "128 GB UFS"
+      },
+      {
+        "icon": "images/specs/tela_svg.svg",
+        "label": "10.5'' PixelSense"
+      },
+      {
+        "icon": "images/specs/phone_svg.svg",
+        "label": "2 em 1"
+      }
+    ],
+    "category": "Tablet"
+  }
+]

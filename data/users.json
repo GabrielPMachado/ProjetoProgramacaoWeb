@@ -1,3 +1,13 @@
 [
-  
+  {
+    "name": "Gabriel",
+    "email": "demonity.00@gmail.com",
+    "password": "Demonity_007",
+    "phone": "51991059159",
+    "cpf": "85522031034",
+    "cep": "91760400",
+    "address": "Av. Imperial, 392",
+    "city": "Porto Alegre",
+    "state": "RS"
+  }
 ]

@@ -39,7 +39,19 @@ Antes de tudo, instale o Node.js na sua máquina:
 
 ---
 
-### 3️⃣ Abrir o terminal no VS Code
+### 3️⃣ Baixe a extensão Live Server
+
+- Use o link a seguir para baixar a extensão live server no seu VS Code
+
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+- Clique em `Install`
+- Abra no VS Code
+- Clique para Instalar
+
+---
+
+### 4️⃣ Abrir o terminal no VS Code
 
 Dentro do VS Code:
 
@@ -50,7 +62,7 @@ Ctrl + `
 
 ---
 
-### 4️⃣ Inicializar o projeto
+### 5️⃣ Inicializar o projeto
 
 - No terminal digite:
 
@@ -58,7 +70,7 @@ npm init -y
 
 ---
 
-### 5️⃣ Inicializar o servidor
+### 6️⃣ Inicializar o servidor
 
 - Ainda no terminal digite:
 
@@ -66,15 +78,18 @@ node server.js
 
 - Se estiver tudo correto, irá aparecer no terminal:
 
-Servidor rodando em http://localhost:3000
+Servidor rodando em `http://localhost:3000`
 
 ---
 
-### 6️⃣ Acesse no navegador
+### 7️⃣ Acesse no navegador
 
-- Abra o seu navegador e cole:
+- Use o Atalho `Ctrl + P`
+- Digite na barra:
 
-http://127.0.0.1:5500/index.html
+Open With Live Server
+
+- Pronto, se estiver tudo correto ele abrirá o projeto no seu navegador.
 
 ---
 
@@ -138,20 +153,16 @@ Responsável pela manipulação dos dados.
 ```bash
 📁 ProjetoProgramacaoWeb/
 │
-├── 📁 categories/
-│   ├── 📁 cellPhones/
-│   ├── 📁 computers/
-│   ├── 📁 monitors/
-│   ├── 📁 notebooks/
-│   └── 📁 tablets/
 │
 ├── 📁 data/
-│   └── users.json
-│
 ├── 📁 images/
+├── 📁 node_modules/
+├── 📁 scripts/
 ├── 📁 styles/
 │
+├── category.html
 ├── index.html
-├── server.js
+├── package-lock.json
 ├── package.json
-└── README.md
+├── README.md
+└── server.js

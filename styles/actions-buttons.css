@@ -1,4 +1,4 @@
-/* Ações do header */
+/* Área de ações */
 .actions {
   display: flex;
   align-items: center;
@@ -13,36 +13,41 @@
   outline: none;
   width: 180px;
   background: #f5f5f5;
-  transition: 0.3s;
+  transition: width 0.3s ease, border-color 0.3s ease, background 0.3s ease;
 }
 
-/* Efeito ao focar */
+/* Foco do campo */
 .actions input:focus {
   width: 220px;
   border-color: #000;
+  background: #fff;
 }
 
 /* Botões de ícone */
 .btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: none;
   border: none;
   cursor: pointer;
   position: relative;
-  padding: 5px;
+  padding: 6px;
 }
 
-/* Ícones SVG */
+/* Ícones */
 .icon-cart,
 .icon-user {
+  margin-right: 5px;
   width: 20px;
   height: 20px;
   stroke: #000;
   stroke-width: 2;
   fill: none;
-  transition: 0.2s;
+  transition: transform 0.2s ease, stroke 0.2s ease;
 }
 
-/* Hover nos ícones */
+/* Hover dos ícones */
 .cart-btn:hover .icon-cart,
 .user-btn:hover .icon-user {
   stroke: #0071e3;
@@ -55,43 +60,39 @@
   top: -5px;
   right: -5px;
   background: #ff4d4d;
-  color: white;
+  color: #fff;
   font-size: 11px;
   font-weight: 600;
-  padding: 2px 6px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
   border-radius: 999px;
   display: none;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Exibir quando houver itens */
+/* Badge visível */
 .cart-badge.show {
-  display: inline-block;
+  display: inline-flex;
 }
 
-/* Ocultar quando vazio */
+/* Badge vazio */
 .cart-badge:empty {
   display: none;
 }
 
-/* Estado segurando botão */
-.cart-btn.holding::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  border: 2px solid red;
-  animation: holdProgress 1.8s linear forwards;
-  pointer-events: none;
-}
+/* Responsividade */
+@media (max-width: 600px) {
+  .actions {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-/* Feedback ao adicionar item */
-.cart-btn.added::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: rgba(255, 0, 0, 0.2);
-  transform: scale(0);
-  animation: addPop 0.3s ease forwards;
-  pointer-events: none;
+  .actions input,
+  .actions input:focus {
+    width: 100%;
+    max-width: 260px;
+  }
 }

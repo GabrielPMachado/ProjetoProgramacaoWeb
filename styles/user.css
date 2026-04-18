@@ -2,44 +2,48 @@
 .user-overlay {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
   justify-content: center;
   align-items: center;
   z-index: 999;
 }
 
-/* Estado ativo */
+/* Overlay ativo */
 .user-overlay.active {
   display: flex;
 }
 
-/* Popup */
+/* Popup do usuário */
 .user-popup {
   background: #fff;
   border-radius: 12px;
   position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
 }
 
-/* Container do popup */
+/* Caixa principal */
 #userPopup {
-  width: 320px;
+  width: min(320px, 90vw);
   padding: 25px;
 }
 
-/* Inputs */
+/* Campos */
 #userPopup input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
   border-radius: 8px;
   border: 1px solid #ccc;
+  outline: none;
 }
 
-/* Botão */
+/* Foco dos campos */
+#userPopup input:focus {
+  border-color: #1e73be;
+}
+
+/* Botões */
 #userPopup button {
   width: 100%;
   padding: 10px;
@@ -48,9 +52,15 @@
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-/* Alternar autenticação */
+/* Hover dos botões */
+#userPopup button:hover {
+  background: #155a96;
+}
+
+/* Troca entre login e cadastro */
 .auth-switch {
   text-align: center;
   margin-top: 12px;
@@ -58,7 +68,7 @@
   color: #555;
 }
 
-/* Link de alternância */
+/* Link de troca */
 .auth-switch a {
   color: #1e73be;
   cursor: pointer;

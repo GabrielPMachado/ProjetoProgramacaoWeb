@@ -1,22 +1,22 @@
-/* Seção principal (hero) */
+/* Remove cursor de texto da hero */
+.hero,
+.hero * {
+  caret-color: transparent;
+}
+
+/* Seção hero */
 .hero {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
   width: 100%;
   padding: 60px 20px;
-  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  background: linear-gradient(135deg, #aec8f1, #e4ecf7);
 }
 
-/* Área da imagem */
-.hero-image {
-  flex: 1 1 300px;
-  margin-right: 50px;
-  text-align: center;
-}
-
-/* Área de texto */
+/* Texto */
 .hero-text {
   flex: 1 1 300px;
   max-width: 500px;
@@ -37,25 +37,44 @@
 }
 
 /* Imagem */
+.hero-image {
+  flex: 1 1 320px;
+  text-align: center;
+}
+
+/* Imagem principal */
 .hero-image img {
   width: 100%;
   max-width: 400px;
+  margin: 0 auto;
 }
 
 /* Botão principal */
 .btn-primary {
+  display: inline-block;
   background: #0071e3;
-  color: white;
+  color: #fff;
   padding: 12px 25px;
   border-radius: 25px;
   text-decoration: none;
   font-weight: 600;
-  transition: 0.3s;
-  display: inline-block;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 /* Hover do botão */
 .btn-primary:hover {
   background: #005bb5;
   transform: translateY(-2px);
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .hero {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
 }

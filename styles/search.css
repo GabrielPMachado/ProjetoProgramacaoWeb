@@ -1,0 +1,85 @@
+/* Caixa da busca */
+.search-box {
+  position: relative;
+  width: 430px;
+  flex: none;
+}
+
+/* Campo de busca */
+#searchInput {
+  width: 100%;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid #cfcfcf;
+  font-size: 14px;
+  background: #f7f7f7;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Foco do campo */
+#searchInput:focus {
+  border-color: #999;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
+}
+
+/* Lista de sugestões */
+.search-suggestions {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+  display: none;
+  z-index: 9999;
+}
+
+/* Lista visível */
+.search-suggestions.show {
+  display: block;
+}
+
+/* Item da sugestão */
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Hover e item ativo */
+.suggestion-item:hover,
+.suggestion-item.active {
+  background: #f3f3f3;
+}
+
+/* Imagem da sugestão */
+.suggestion-item img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* Texto da sugestão */
+.suggestion-item span {
+  font-size: 14px;
+  color: #222;
+}
+
+/* Estado vazio */
+.suggestion-item.empty {
+  cursor: default;
+}

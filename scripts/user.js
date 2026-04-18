@@ -11,6 +11,7 @@ function saveLoggedUser(user) {
 // Armazena os dados da etapa 1 do cadastro temporariamente
 let registerTemp = null;
 
+// Atualiza o botão da navbar com o estado do usuário (logado ou não)
 function updateNavbarUser() {
   const userBtn = document.querySelector(".user-btn");
   const user = getLoggedUser();
@@ -40,6 +41,7 @@ function updateNavbarUser() {
   }
 }
 
+// Inicializa toda a lógica de autenticação e interação do usuário
 function initUser() {
   const userBtn = document.querySelector(".user-btn");
   const userOverlay = document.getElementById("userOverlay");
@@ -53,6 +55,7 @@ function initUser() {
   // Atualiza a navbar com o estado atual
   updateNavbarUser();
 
+  // Clique no botão de usuário
   userBtn.addEventListener("click", () => {
     const user = getLoggedUser();
 
@@ -81,13 +84,15 @@ function initUser() {
   // Impede que cliques dentro do popup fechem ele
   userPopup.addEventListener("click", (e) => e.stopPropagation());
 
-  // Navega entre as telas de login, cadastro e voltar
+  // Navegação entre telas (login, cadastro, voltar)
   userPopup.addEventListener("click", (e) => {
     if (e.target.id === "goToRegister") {
       registerTemp = null;
       showRegister();
     }
+
     if (e.target.id === "goToLogin") showLogin();
+
     if (e.target.id === "goBack") {
       // Salva os dados da etapa 2 antes de voltar
       const form = document.getElementById("registerForm2");
@@ -104,7 +109,7 @@ function initUser() {
     }
   });
 
-  // Trata o submit de cada formulário
+  // Trata o envio dos formulários (login e cadastro)
   userPopup.addEventListener("submit", (e) => {
     e.preventDefault();
 
@@ -131,7 +136,7 @@ function showLogin() {
   `;
 }
 
-// Renderiza a etapa 1 do cadastro: nome, email e senha
+// Renderiza a etapa 1 do cadastro
 function showRegister() {
   const userPopup = document.getElementById("userPopup");
 
@@ -148,7 +153,7 @@ function showRegister() {
     </p>
   `;
 
-  // Repopula os campos se o usuário voltou da etapa 2
+  // Repopula os campos se já havia preenchido antes
   if (registerTemp) {
     const form = document.getElementById("registerForm");
     form.querySelector("input[type='text']").value  = registerTemp.name  || "";
@@ -156,7 +161,7 @@ function showRegister() {
   }
 }
 
-// Renderiza a etapa 2 do cadastro: dados pessoais e endereço
+// Renderiza a etapa 2 do cadastro
 function showRegisterStep2() {
   const userPopup = document.getElementById("userPopup");
 
@@ -164,11 +169,11 @@ function showRegisterStep2() {
     <h2>Seus dados</h2>
     <form id="registerForm2">
       <input type="text" placeholder="Telefone" required maxlength="15" oninput="formatPhone(this)">
-      <input type="text" placeholder="CPF"      required maxlength="14" oninput="formatCPF(this)">
-      <input type="text" placeholder="CEP"      required maxlength="9"  oninput="formatCEP(this)">
+      <input type="text" placeholder="CPF" required maxlength="14" oninput="formatCPF(this)">
+      <input type="text" placeholder="CEP" required maxlength="9" oninput="formatCEP(this)">
       <input type="text" placeholder="Endereço" required>
-      <input type="text" placeholder="Cidade"   required>
-      <input type="text" placeholder="Estado"   required maxlength="2"  oninput="formatState(this)">
+      <input type="text" placeholder="Cidade" required>
+      <input type="text" placeholder="Estado" required maxlength="2" oninput="formatState(this)">
       <button type="submit">Cadastrar</button>
     </form>
     <p class="auth-switch">
@@ -176,7 +181,7 @@ function showRegisterStep2() {
     </p>
   `;
 
-  // Repopula os campos se o usuário já tinha preenchido
+  // Repopula os dados já preenchidos
   if (registerTemp) {
     const form = document.getElementById("registerForm2");
     const inputs = form.querySelectorAll("input");
@@ -189,36 +194,36 @@ function showRegisterStep2() {
   }
 }
 
-// Aplica máscara de telefone: (11) 91234-5678
+// Aplica máscara de telefone
 function formatPhone(input) {
   let value = input.value.replace(/\D/g, "").slice(0, 11);
 
-  if (value.length === 0)       input.value = "";
-  else if (value.length < 3)    input.value = `(${value}`;
-  else if (value.length < 7)    input.value = `(${value.slice(0, 2)}) ${value.slice(2)}`;
-  else if (value.length < 11)   input.value = `(${value.slice(0, 2)}) ${value.slice(2, 6)}-${value.slice(6)}`;
-  else                          input.value = `(${value.slice(0, 2)}) ${value.slice(2, 7)}-${value.slice(7, 11)}`;
+  if (value.length === 0) input.value = "";
+  else if (value.length < 3) input.value = `(${value}`;
+  else if (value.length < 7) input.value = `(${value.slice(0, 2)}) ${value.slice(2)}`;
+  else if (value.length < 11) input.value = `(${value.slice(0, 2)}) ${value.slice(2, 6)}-${value.slice(6)}`;
+  else input.value = `(${value.slice(0, 2)}) ${value.slice(2, 7)}-${value.slice(7, 11)}`;
 }
 
-// Aplica máscara de CPF: 123.456.789-00
+// Aplica máscara de CPF
 function formatCPF(input) {
   let value = input.value.replace(/\D/g, "").slice(0, 11);
 
-  if (value.length <= 3)      input.value = value;
+  if (value.length <= 3) input.value = value;
   else if (value.length <= 6) input.value = `${value.slice(0, 3)}.${value.slice(3)}`;
   else if (value.length <= 9) input.value = `${value.slice(0, 3)}.${value.slice(3, 6)}.${value.slice(6)}`;
-  else                        input.value = `${value.slice(0, 3)}.${value.slice(3, 6)}.${value.slice(6, 9)}-${value.slice(9)}`;
+  else input.value = `${value.slice(0, 3)}.${value.slice(3, 6)}.${value.slice(6, 9)}-${value.slice(9)}`;
 }
 
-// Aplica máscara de CEP: 12345-678
+// Aplica máscara de CEP
 function formatCEP(input) {
   let value = input.value.replace(/\D/g, "").slice(0, 8);
 
   if (value.length <= 5) input.value = value;
-  else                   input.value = `${value.slice(0, 5)}-${value.slice(5)}`;
+  else input.value = `${value.slice(0, 5)}-${value.slice(5)}`;
 }
 
-// Garante que o estado tenha só letras em maiúsculo (ex: RS)
+// Formata estado (sigla)
 function formatState(input) {
   input.value = input.value
     .replace(/[^a-zA-Z]/g, "")
@@ -226,12 +231,12 @@ function formatState(input) {
     .toUpperCase();
 }
 
+// Realiza login via backend
 async function handleLogin(form) {
   const email = form.querySelector("input[type='email']").value.trim();
   const senha = form.querySelector("input[type='password']").value;
 
   try {
-    // Envia as credenciais para o backend
     const response = await fetch("http://localhost:3000/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -240,12 +245,13 @@ async function handleLogin(form) {
 
     const data = await response.json();
 
+    // Trata erro de login
     if (!response.ok) {
       showError(data.error || "Email ou senha incorretos.");
       return;
     }
 
-    // Salva o usuário e fecha o popup
+    // Salva usuário e fecha popup
     saveLoggedUser(data.user);
     document.getElementById("userOverlay").classList.remove("active");
     updateNavbarUser();
@@ -255,54 +261,47 @@ async function handleLogin(form) {
   }
 }
 
+// Valida etapa 1 do cadastro
 function handleRegisterStep1(form) {
   const name = form.querySelector("input[type='text']").value.trim();
   const email = form.querySelector("input[type='email']").value.trim();
   const password = form.querySelector("input[type='password']").value;
 
-  // Validações básicas antes de avançar
   if (name.length < 3) { showError("Nome muito curto."); return; }
   if (password.length < 8) { showError("Senha deve ter no mínimo 8 caracteres."); return; }
 
-  // Guarda os dados e avança para a etapa 2
+  // Guarda dados e vai para etapa 2
   registerTemp = { name, email, password };
   showRegisterStep2();
 }
 
+// Finaliza cadastro
 async function handleRegister(form) {
   const inputs = form.querySelectorAll("input");
 
-  // Monta o objeto com todos os dados (etapa 1 + etapa 2), removendo máscaras dos campos
   const newUser = {
     ...registerTemp,
-    phone:   inputs[0].value.replace(/\D/g, ""),
-    cpf:     inputs[1].value.replace(/\D/g, ""),
-    cep:     inputs[2].value.replace(/\D/g, ""),
+    phone: inputs[0].value.replace(/\D/g, ""),
+    cpf: inputs[1].value.replace(/\D/g, ""),
+    cep: inputs[2].value.replace(/\D/g, ""),
     address: inputs[3].value.trim(),
-    city:    inputs[4].value.trim(),
-    state:   inputs[5].value.trim().toUpperCase(),
+    city: inputs[4].value.trim(),
+    state: inputs[5].value.trim().toUpperCase(),
   };
 
-  // Limpa o rascunho temporário
   registerTemp = null;
 
-  // Valida CPF, telefone, CEP e cidade
-  if (!/^\d{11}$/.test(newUser.cpf))         { showError("CPF inválido."); return; }
-  if (!/^\d{10,11}$/.test(newUser.phone))    { showError("Telefone inválido."); return; }
-  if (!/^\d{8}$/.test(newUser.cep))          { showError("CEP inválido."); return; }
-  if (!/^[A-Za-zÀ-ÿ\s]+$/.test(newUser.city)) { showError("Cidade inválida. Digite uma, como Porto Alegre."); return; }
+  // Validações finais
+  if (!/^\d{11}$/.test(newUser.cpf)) { showError("CPF inválido."); return; }
+  if (!/^\d{10,11}$/.test(newUser.phone)) { showError("Telefone inválido."); return; }
+  if (!/^\d{8}$/.test(newUser.cep)) { showError("CEP inválido."); return; }
+  if (!/^[A-Za-zÀ-ÿ\s]+$/.test(newUser.city)) { showError("Cidade inválida."); return; }
 
-  // Lista de siglas válidas de estados brasileiros
-  const siglas = [
-    "AC","AL","AP","AM","BA","CE","DF","ES","GO",
-    "MA","MT","MS","MG","PA","PB","PR","PE","PI",
-    "RJ","RN","RS","RO","RR","SC","SP","SE","TO"
-  ];
+  const siglas = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
 
-  if (!siglas.includes(newUser.state)) { showError("Estado inválido. Use a sigla, como RS."); return; }
+  if (!siglas.includes(newUser.state)) { showError("Estado inválido."); return; }
 
   try {
-    // Envia o novo usuário para o backend
     const response = await fetch("http://localhost:3000/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -313,7 +312,7 @@ async function handleRegister(form) {
 
     if (!response.ok) { showError(data.error || "Erro ao cadastrar."); return; }
 
-    // Salva localmente para manter a sessão e fecha o popup
+    // Salva sessão e fecha popup
     saveLoggedUser(newUser);
     document.getElementById("userOverlay").classList.remove("active");
     updateNavbarUser();
@@ -323,10 +322,11 @@ async function handleRegister(form) {
   }
 }
 
+// Exibe mensagens de erro na interface
 function showError(msg) {
   let err = document.getElementById("authError");
 
-  // Cria o elemento de erro se ainda não existir
+  // Cria o elemento se não existir
   if (!err) {
     err = document.createElement("p");
     err.id = "authError";
@@ -334,8 +334,9 @@ function showError(msg) {
     document.getElementById("userPopup").appendChild(err);
   }
 
-  // Exibe a mensagem de erro
+  // Atualiza mensagem
   err.textContent = msg;
 }
 
+// Inicializa tudo quando o DOM carregar
 document.addEventListener("DOMContentLoaded", initUser);

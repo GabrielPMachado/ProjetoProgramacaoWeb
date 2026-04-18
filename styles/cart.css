@@ -8,11 +8,11 @@
   justify-content: center;
   opacity: 0;
   pointer-events: none;
-  transition: 0.25s ease;
+  transition: opacity 0.25s ease;
   z-index: 999;
 }
 
-/* Estado ativo */
+/* Overlay ativo */
 .cart-overlay.active {
   opacity: 1;
   pointer-events: all;
@@ -28,7 +28,9 @@
   padding: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
   transform: scale(0.95);
-  transition: 0.25s ease;
+  transition: transform 0.25s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Popup ativo */
@@ -40,22 +42,87 @@
 #cartItems {
   list-style: none;
   margin: 10px 0;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 5px;
 }
 
-/* Item individual */
+/* Espaçamento dos itens */
 #cartItems li {
+  margin-bottom: 12px;
+}
+
+/* Card do item */
+.cart-item {
   display: flex;
-  justify-content: space-between;
-  margin: 6px 0;
+  align-items: center;
+  gap: 12px;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+/* Hover do item */
+.cart-item:hover {
+  background: #f0f0f0;
+}
+
+/* Imagem do item */
+.cart-item-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Informações do item */
+.cart-item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nome do produto */
+.cart-item-info strong {
+  font-size: 14px;
+}
+
+/* Specs do produto */
+.cart-item-info small {
+  font-size: 11px;
+  color: #666;
+  margin: 2px 0;
+}
+
+/* Ações do item */
+.cart-item-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+/* Preço do item */
+.cart-item-actions span {
+  font-weight: bold;
+}
+
+/* Botão de remover */
+.cart-item-actions button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 /* Rodapé do carrinho */
 .cart-footer {
   border-top: 1px solid #eee;
   padding-top: 10px;
+  margin-top: auto;
 }
 
-/* Estado segurando botão */
+/* Estado de limpeza */
 .cart-btn.holding::after {
   content: "";
   position: absolute;
@@ -66,13 +133,7 @@
   pointer-events: none;
 }
 
-/* Animação de progresso */
-@keyframes holdProgress {
-  0% { transform: scale(0.5); opacity: 0.6; }
-  100% { transform: scale(1.8); opacity: 0; }
-}
-
-/* Feedback ao adicionar item */
+/* Estado de item adicionado */
 .cart-btn.added::after {
   content: "";
   position: absolute;
@@ -84,27 +145,19 @@
   pointer-events: none;
 }
 
-/* Animação de pop */
-@keyframes addPop {
-  0% { transform: scale(0); opacity: 0.6; }
-  50% { transform: scale(1.2); opacity: 0.8; }
-  100% { transform: scale(1); opacity: 0; }
-}
+/* Responsividade */
+@media (max-width: 600px) {
+  .cart-popup {
+    width: 95%;
+    height: 90%;
+    padding: 16px;
+  }
 
-/* Animação de entrada */
-.scroll {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: all 0.6s ease;
-}
+  .cart-item {
+    align-items: flex-start;
+  }
 
-/* Estado ativo */
-.scroll.active {
-  opacity: 1;
-  transform: translateY(0);
+  .cart-item-actions {
+    align-items: flex-start;
+  }
 }
-
-/* Delay progressivo */
-.scroll:nth-child(1) { transition-delay: 0.1s; }
-.scroll:nth-child(2) { transition-delay: 0.2s; }
-.scroll:nth-child(3) { transition-delay: 0.3s; }

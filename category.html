@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Configurações básicas da página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecno Store</title>
+    <title>Categorias - Tecno Store</title>
 
-    <!-- Estilos -->
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/search.css">
-    <link rel="stylesheet" href="styles/animations.css">
     <link rel="stylesheet" href="styles/actions-buttons.css">
-    <link rel="stylesheet" href="styles/hero.css">
-    <link rel="stylesheet" href="styles/benefits.css">
     <link rel="stylesheet" href="styles/products.css">
-    <link rel="stylesheet" href="styles/testimonials.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/cart.css">
     <link rel="stylesheet" href="styles/user.css">
 
-    <!-- Ícone e fonte -->
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
 </head>
     <body>
 
@@ -45,11 +35,9 @@
             </nav>
 
             <div class="actions">
+
 <!-- SearchBar -->
-                <div class="search-box">
-                    <input type="text" placeholder="Pesquisar" id="searchInput" autocomplete="off">
-                    <div id="searchSuggestions" class="search-suggestions"></div>
-                </div>
+                <input type="text" placeholder="Pesquisar" id="searchInput">
 
 <!-- Cart -->
                 <div class="cart-container">
@@ -92,78 +80,74 @@
                 </div>
             </div>
         </header>
-    <main>
 
-<!-- Hero -->
-            <section class="hero scroll">
-                <div class="hero-text">
-                    <h1>Os melhores eletrônicos você encontra aqui.</h1>
-                    <p>Qualidade, garantia e os melhores preços!</p>
-                    <a href="#produtos" class="btn-primary">Comprar agora</a>
-                </div>
-
-                <!-- Hero Image -->
-                <div class="hero-image">
-                    <img src="images/main_banner.png" alt="Banner principal da Tecno Store">
-                </div>
-            </section>
-
-<!-- Beneficios -->
-            <section class="benefits scroll">
-                <div class="benefit">
-                    <h3>🚚 Frete grátis</h3>
-                    <p>Para todo o Brasil</p>
-                </div>
-
-                <div class="benefit">
-                    <h3>🔒 Compra segura</h3>
-                    <p>Seus dados protegidos</p>
-                </div>
-
-                <div class="benefit">
-                    <h3>💳 Parcelamento</h3>
-                    <p>Em até 12x sem juros</p>
-                </div>
-            </section>
+        <main>
 
 <!-- Produtos -->
-            <section class="products scroll" id="produtos">
-                <h2>Produtos</h2>
+            <section class="products">
+                <h2 id="categoryTitle">Produtos</h2>
 
-                <div class="product-grid">
+                <div class="product-grid" id="productGrid">
                     <!-- Os produtos serão gerados aqui pelo products.js -->
                 </div>
             </section>
 
-<!-- Feedbacks -->
-            <section class="testimonials scroll">
-                <h2>O que nossos clientes dizem</h2>
-
-                <!-- Feedback 01 -->
-                <div class="testimonial">
-                    <p>"Entrega rápida e produto excelente!"</p>
-                    <strong>- João Silva</strong>
-                </div>
-
-                <!-- Feedback 02 -->
-                <div class="testimonial">
-                    <p>"Melhor loja que já comprei online."</p>
-                    <strong>- Maria Souza</strong>
-                </div>
-            </section>
         </main>
-
-<!-- Footer -->
-        <footer class="footer">
-            <p>© 2026 Tecno Store</p>
-            <p>Contato: suporte@tecnostore.com</p>
-        </footer>
 
         <script src="scripts/cart.js" defer></script>
         <script src="scripts/user.js" defer></script>
         <script src="scripts/products.js" defer></script>
         <script src="scripts/search.js" defer></script>
-        <script src="scripts/scroll-animation.js" defer></script>
 
+        <script>
+
+            // Pega a categoria da URL
+            function getCategoryFromURL() {
+                const params = new URLSearchParams(window.location.search);
+                return params.get("cat");
+            }
+
+            // Carrega os produtos da categoria
+            async function loadCategoryProducts() {
+                try {
+                    const response = await fetch("./data/products.json");
+
+                    if (!response.ok) {
+                        throw new Error("Erro ao carregar os produtos.");
+                    }
+
+                    const products = await response.json();
+                    const category = getCategoryFromURL();
+
+                    // Filtra os produtos pela categoria
+                    const filteredProducts = category
+                        ? products.filter(product => product.category === category)
+                        : products;
+
+                    // Nome das categorias
+                    const categoryNames = {
+                        Computer: "Computadores",
+                        Notebook: "Notebooks",
+                        Monitor: "Monitores",
+                        Cellphone: "Celulares",
+                        Tablet: "Tablets"
+                    };
+
+                    // Atualiza o título da página
+                    document.getElementById("categoryTitle").textContent =
+                        categoryNames[category] || "Produtos";
+
+                    // Renderiza os produtos
+                    renderProducts(filteredProducts);
+                } catch (error) {
+                    console.error("Erro ao carregar produtos:", error);
+                    document.getElementById("categoryTitle").textContent = "Erro ao carregar produtos";
+                }
+            }
+
+            // Inicializa o carregamento
+            loadCategoryProducts();
+
+        </script>
     </body>
 </html>

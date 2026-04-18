@@ -1,7 +1,7 @@
 {
   "name": "projetoprogramacaoweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Plataforma web de e-commerce focada na exibição de produtos tecnológicos com sistema de autenticação de usuários.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/GabrielPMachado/ProjetoProgramacaoWeb#readme",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "openclaw": "^2026.4.11"
   }
 }

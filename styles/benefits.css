@@ -3,21 +3,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
   width: 100%;
   padding: 40px 20px;
-  background: #fafafa;
+  background: #f1f1f1;
   text-align: center;
-  gap: 20px;
 }
 
-/* Separa os itens */
+/* Item */
 .benefit {
   flex: 1 1 200px;
+  max-width: 260px;
 }
 
 /* Título */
 .benefit h3 {
   margin-bottom: 5px;
+  font-size: 18px;
 }
 
 /* Descrição */

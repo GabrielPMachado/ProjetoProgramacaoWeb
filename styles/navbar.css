@@ -1,25 +1,39 @@
 /* Barra de navegação */
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 40px;
-  border-bottom: 1px solid #eee;
   position: sticky;
   top: 0;
-  background: #fff;
   z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  display: grid;
+  grid-template-columns: 140px 1fr auto;
+  align-items: center;
+  gap: 32px;
+  padding: 15px 40px;
 }
 
-/* Logo */
+/* Área da logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+/* Imagem da logo */
 .logo img {
-  height: 30px;
+  width: 70px;
+  height: auto;
+  display: block;
 }
 
-/* Menu de navegação */
+/* Menu */
 .menu {
   display: flex;
-  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  white-space: nowrap;
 }
 
 /* Links do menu */
@@ -27,10 +41,47 @@
   text-decoration: none;
   color: #000;
   font-size: 14px;
-  transition: 0.3s;
+  transition: color 0.3s ease;
 }
 
-/* Hover nos links */
+/* Hover dos links */
 .menu a:hover {
   color: #0071e3;
+}
+
+/* Área de ações */
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Botões fixos */
+.cart-container,
+.user-btn {
+  flex-shrink: 0;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 20px;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
 }

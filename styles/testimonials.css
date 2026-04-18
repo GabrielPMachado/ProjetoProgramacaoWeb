@@ -6,8 +6,21 @@
   text-align: center;
 }
 
-/* Depoimento */
+/* Título */
+.testimonials h2 {
+  margin-bottom: 20px;
+}
+
+/* Card do depoimento */
 .testimonial {
-  margin-top: 20px;
+  max-width: 700px;
+  margin: 20px auto 0;
   font-style: italic;
+}
+
+/* Autor */
+.testimonial strong {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
 }

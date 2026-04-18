@@ -6,3 +6,8 @@
   padding: 20px;
   font-size: 14px;
 }
+
+/* Espaçamento entre linhas */
+.footer p + p {
+  margin-top: 6px;
+}

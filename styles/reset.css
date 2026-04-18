@@ -1,14 +1,41 @@
 /* Reset global */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Configurações base */
-html, body {
-  font-family: 'Montserrat', sans-serif;
+/* Documento */
+html {
   scroll-behavior: smooth;
+}
+
+/* Corpo da página */
+body {
+  font-family: "Montserrat", sans-serif;
   background: #fff;
   color: #111;
+}
+
+/* Mídia responsiva */
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Elementos de formulário */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Cursor de texto */
+input,
+textarea {
+  caret-color: auto;
 }
